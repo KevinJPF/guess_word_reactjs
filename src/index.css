@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #242424 10%, #000 90%);
+  color: #bbb;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+button {
+  border-radius: 200px;
+  border: 1px solid transparent;
+  padding: 0.5em 1.2em;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: 0.25s;
+  color: #bbb;
+  border-color: #bbb;
+}
+button:hover {
+  border-color: #2bf;
+  color: #2bf;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto #1a1a1a;
+  color: #1a1a1a;
+  background-color: #2bf;
+}
+
+html,
+body {
+  height: 100%;
+}
